@@ -1,0 +1,119 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 15px;
+	font-family:sans-serif;
+}
+p{
+	margin-bottom: 15px;
+}
+a{
+	text-decoration: none;
+	transition: .35s all ease;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* Typography css End */
+.service-area{
+  padding: 50px 0;
+}
+.single-service.sample-bg {
+    background: aliceblue;
+}
+.single-service.sample-bg:hover {
+    background: peru;
+}
+.section-title h2 {
+  color: #29a4a4;
+  padding-bottom: 10px;
+  position: relative;
+}
+.section-title h2:before{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  background-color: #FFCD42;
+  width: 100px;
+  height: 3px;
+  margin-left: -50px;
+}
+.section-title h2:after{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  background-color: #1AA15F;
+  width: 30px;
+  height: 3px;
+  margin-left: -15px;
+}
+.section-title h2 span {
+	color: #46e11f;
+}
+.section-title p {
+  color: #778989;
+}
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.single-service {
+    text-align: center;
+    background: sandybrown;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    transition: .3s all;
+}
+
+.service-icon i {
+    font-size: 25px;
+    color: #fff;
+    background: #DC5725;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+     transition: .3s all;
+}
+
+.service-content h3 {
+    font-size: 25px;
+    padding: 20px 0;
+    margin: 0;
+     transition: .3s all;
+}
+
+.service-content p {
+    color: #a37474;
+    font-size: 15px;
+     transition: .3s all;
+}
+
+.single-service:hover {
+    background: gray;
+    box-shadow: 1px 3px 5px #635454;
+}
+.single-service.sample-bg .service-icon i {
+    background: seagreen;
+}
+.single-service.sample-bg:hover .service-icon i {
+    background: darkviolet;
+}
+.single-service:hover .service-icon i {background: lightseagreen;}
+
+.single-service:hover .service-content h3 {
+    color: #fff;
+}
+
+.single-service:hover .service-content p {
+    color: #e9dddd;
+}
+
